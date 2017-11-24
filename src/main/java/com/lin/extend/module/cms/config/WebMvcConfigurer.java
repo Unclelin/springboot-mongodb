@@ -33,7 +33,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @Author: cat-lin
+ * @Author: tom-lin
  * @Description:
  * @Date: Create in 00:05 17/7/4
  * @Modified by: Spring MVC 配置
@@ -42,6 +42,7 @@ import java.util.List;
 public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
 
     private final Logger logger = LoggerFactory.getLogger(WebMvcConfigurer.class);
+
     @Value("${spring.profiles.active}")
     private String env;//当前激活的配置文件
 

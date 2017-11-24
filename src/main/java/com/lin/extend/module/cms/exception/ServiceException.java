@@ -1,7 +1,7 @@
 package com.lin.extend.module.cms.exception;
 
 /**
- * @Author: cat-lin
+ * @Author: tom-lin
  * @Description: ServiceException
  * @Date: Create in 00:05 17/7/2
  * @Modified by:

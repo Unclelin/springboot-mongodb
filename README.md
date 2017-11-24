@@ -3,6 +3,7 @@
 ## 简介
 ---
 - 基于spring-boot和mongodb写的一套基础框架，框架可用于支撑移动应用后台服务，接口是restful风格的。
+- restfull api 带有签名认证
 
 ## 使用方法
 - 使用intellij maven导入

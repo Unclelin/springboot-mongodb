@@ -5,7 +5,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- * @Author: cat-lin
+ * @Author: tom-lin
  * @Description: Category
  * @Date: Create in 00:05 17/7/2
  * @Modified by:
