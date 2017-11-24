@@ -1,0 +1,11 @@
+.checkstyle
+.classpath
+.project
+.class
+.rar
+.idea
+*.iml
+.settings/*
+/indexes/*
+/target/*
+/target/
