@@ -14,6 +14,6 @@ http://localhost:8080/api/v1.0/category
 http://localhost:8080/index
 
 
-#＃ 关于问题
+## 关于问题
 1. 如有问题或者更加优异的方法欢迎探讨和指正。
 2. 联系方式：QQ : 578169426 Email: 578169426@qq.com   
