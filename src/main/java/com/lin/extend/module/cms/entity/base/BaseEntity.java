@@ -3,7 +3,7 @@ package com.lin.extend.module.cms.entity.base;
 import lombok.Data;
 
 /**
- * @Author: cat-lin
+ * @Author: tom-lin
  * @Description: BaseEntity
  * @Date: Create in 00:05 17/7/2
  * @Modified by:
