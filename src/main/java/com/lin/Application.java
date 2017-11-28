@@ -2,6 +2,8 @@ package com.lin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
+import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 
 /**
  * @Author: tom-lin
@@ -10,9 +12,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Modified by:
  */
 @SpringBootApplication
-public class Application{
+public class Application implements EmbeddedServletContainerCustomizer{
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
+    }
+
+    /**
+     * 自己定义启动端口号
+     * @param container
+     */
+    @Override
+    public void customize(ConfigurableEmbeddedServletContainer container) {
+        container.setPort(8089);
     }
 }
